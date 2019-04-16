@@ -6,10 +6,7 @@ build:
     excludes:
         - org.grails.grails-core
 dependencies:
-    provided:
-        - "org.grails:grails-plugin-services"
-        - "org.grails:grails-plugin-domain-class"
-    testCompile:
-        - "org.grails:grails-plugin-testing"    
+    compile:
+        - "org.grails:grails-core"
 
 
