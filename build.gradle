@@ -28,5 +28,5 @@ grailsPublish {
 }    
 
 dependencies {
-    runtime "org.grails.profiles:base:4.1.0.M2"
+    runtime "org.grails.profiles:base:5.0.0-SNAPSHOT"
 }
