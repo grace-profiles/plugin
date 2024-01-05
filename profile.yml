@@ -1,11 +1,11 @@
 description: Profile for plugins designed to work across all profiles
 build:
     plugins:
-        - org.grails.grails-plugin
+        - org.graceframework.grace-plugin
     excludes:
-        - org.grails.grails-core
+        - org.graceframework.grace-core
 dependencies:
     - scope: compile
-      coords: "org.grails:grails-core"
+      coords: "org.graceframework:grace-core"
 
 
