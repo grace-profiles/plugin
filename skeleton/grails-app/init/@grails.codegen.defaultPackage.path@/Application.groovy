@@ -1,12 +1,13 @@
 package @grails.codegen.defaultPackage@
 
-import grails.boot.*
-import grails.boot.config.GrailsAutoConfiguration
-import grails.plugins.metadata.*
+import grails.boot.Grails
+import grails.plugins.metadata.PluginSource
 
 @PluginSource
-class Application extends GrailsAutoConfiguration {
+class Application {
+
     static void main(String[] args) {
-        GrailsApp.run(Application, args)
+        Grails.run(Application, args)
     }
+
 }
