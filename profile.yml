@@ -7,5 +7,5 @@ build:
 dependencies:
     - scope: compile
       coords: "org.graceframework:grace-core"
-
-
+    - scope: compileOnly
+      coords: "org.graceframework:grace-boot"
