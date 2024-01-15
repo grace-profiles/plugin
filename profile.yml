@@ -1,4 +1,9 @@
 description: Profile for plugins designed to work across all profiles
+features:
+    defaults:
+        - maven-publish
+repositories:
+    - "mavenLocal()"
 build:
     plugins:
         - org.graceframework.grace-plugin
