@@ -1,4 +1,4 @@
-description: Publishes the plugin to the Grails central repository
+description: Publishes the plugin to the Maven Central repository
 minArguments: 0
 usage: |
  publish-plugin
