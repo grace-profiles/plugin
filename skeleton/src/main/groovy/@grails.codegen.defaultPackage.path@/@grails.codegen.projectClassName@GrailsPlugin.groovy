@@ -8,19 +8,19 @@ class @grails.codegen.projectClassName@GrailsPlugin extends Plugin {
     def grailsVersion = "@grails.version@ > *"
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
-        "grails-app/views/error.gsp"
+        "app/views/error.gsp"
     ]
 
     // TODO Fill in these fields
     def title = "@grails.codegen.projectNaturalName@" // Headline display name of the plugin
     def author = "Your name"
-    def authorEmail = ""
+    def authorEmail = "yourname@example.com"
     def description = '''\
 Brief summary/description of the plugin.
 '''
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/@grails.codegen.projectName@"
+    def documentation = "https://github.com/grace-plugins/@grails.codegen.projectName@"
 
     // Extra (optional) plugin metadata
 
@@ -28,16 +28,16 @@ Brief summary/description of the plugin.
 //    def license = "APACHE"
 
     // Details of company behind the plugin (if there is one)
-//    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
+//    def organization = [ name: "My Company", url: "https://www.my-company.com/" ]
 
     // Any additional developers beyond the author specified above.
-//    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
+//    def developers = [ [ name: "Your name", email: "yourname@example.com" ]]
 
     // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
+//    def issueManagement = [ system: "GITHUB", url: "https://github.com/grace-plugins/@plugin.short.name@/issues" ]
 
     // Online location of the plugin's browseable source code.
-//    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
+//    def scm = [ url: "https://github.com/grace-plugins/@plugin.short.name@" ]
 
     Closure doWithSpring() { {->
             // TODO Implement runtime spring config (optional)

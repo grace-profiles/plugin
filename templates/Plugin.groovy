@@ -14,7 +14,7 @@ class @artifact.name@GrailsPlugin {
     // TODO Fill in these fields
     def title = "@plugin.title@" // Headline display name of the plugin
     def author = "Your name"
-    def authorEmail = ""
+    def authorEmail = "yourname@example.com"
     def description = '''\
 Brief summary/description of the plugin.
 '''
@@ -31,7 +31,7 @@ Brief summary/description of the plugin.
 //    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
 
     // Any additional developers beyond the author specified above.
-//    def developers = [ [ name: "Your Name", email: "hello@example.com" ]]
+//    def developers = [ [ name: "Your Name", email: "yourname@example.com" ]]
 
     // Location of the plugin's issue tracker.
 //    def issueManagement = [ system: "GitHub", url: "https://github.com/grace-plugins/@plugin.short.name@/issues" ]
