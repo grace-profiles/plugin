@@ -11,6 +11,57 @@ publishing {
                 }
             }
             from components.java
+
+            pom {
+                name = "My Plugin"
+                description = "My first plugin"
+                url = 'https://github.com/grace-plugins/my-plugin'
+                licenses {
+                    license {
+                        name = 'The Apache License, Version 2.0'
+                        url = 'https://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'yourname'
+                        name = 'Your Name'
+                        email = 'yourname@example.com'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:git://github.com/grace-plugins/my-plugin.git'
+                    developerConnection = 'scm:git:ssh://github.com:grace-plugins/my-plugin.git'
+                    url = 'https://github.com/grace-plugins/my-plugin'
+                }
+            }
         }
+    }
+}
+
+ext."signing.keyId" = project.hasProperty("signing.keyId") ? project.getProperty('signing.keyId') : System.getenv('SIGNING_KEY')
+ext."signing.password" = project.hasProperty("signing.password") ? project.getProperty('signing.password') : System.getenv('SIGNING_PASSPHRASE')
+ext."signing.secretKeyRingFile" = project.hasProperty("signing.secretKeyRingFile") ? project.getProperty('signing.secretKeyRingFile') : ("${System.properties['user.home']}${File.separator}.gnupg${File.separator}secring.gpg")
+ext.isReleaseVersion = !projectVersion.endsWith("SNAPSHOT")
+
+nexusPublishing {
+    repositories {
+        sonatype {
+            def ossUser = System.getenv("SONATYPE_USERNAME") ?: project.hasProperty("sonatypeOssUsername") ? project.sonatypeOssUsername : ''
+            def ossPass = System.getenv("SONATYPE_PASSWORD") ?: project.hasProperty("sonatypeOssPassword") ? project.sonatypeOssPassword : ''
+            def ossStagingProfileId = System.getenv("SONATYPE_STAGING_PROFILE_ID") ?: project.hasProperty("sonatypeOssStagingProfileId") ? project.sonatypeOssStagingProfileId : ''
+            nexusUrl = uri("https://s01.oss.sonatype.org/service/local/")
+            snapshotRepositoryUrl = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/")
+            username = ossUser
+            password = ossPass
+            stagingProfileId = ossStagingProfileId
+        }
+    }
+}
+
+afterEvaluate {
+    signing {
+        required { isReleaseVersion && gradle.taskGraph.hasTask("publish") }
+        sign publishing.publications.maven
     }
 }
