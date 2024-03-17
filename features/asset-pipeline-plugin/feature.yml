@@ -1,7 +1,7 @@
 description: Adds Asset Pipeline to a Grace Plugin for packaging
 build:
     plugins:
-        - asset-pipeline
+        - org.graceframework.asset-pipeline
 dependencies:
     - scope: build
       coords: 'org.graceframework.plugins:asset-pipeline-gradle:6.0.0-M2'
