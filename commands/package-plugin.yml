@@ -1,4 +1,5 @@
 description: Packages the plugin into a JAR file
+deprecated: true
 minArguments: 0
 usage: |
  package-plugin
