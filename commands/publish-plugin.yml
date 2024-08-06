@@ -1,4 +1,5 @@
 description: Publishes the plugin to the Maven Central repository
+deprecated: true
 minArguments: 0
 usage: |
  publish-plugin
