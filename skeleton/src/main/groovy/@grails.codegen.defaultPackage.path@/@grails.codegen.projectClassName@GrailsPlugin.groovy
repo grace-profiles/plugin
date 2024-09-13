@@ -31,13 +31,13 @@ Brief summary/description of the plugin.
 //    def organization = [ name: "My Company", url: "https://www.my-company.com/" ]
 
     // Any additional developers beyond the author specified above.
-//    def developers = [ [ name: "Your name", email: "yourname@example.com" ]]
+//    def developers = [ [ name: "Your name", email: "yourname@example.com" ] ]
 
     // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "GITHUB", url: "https://github.com/grace-plugins/@plugin.short.name@/issues" ]
+//    def issueManagement = [ system: "GITHUB", url: "https://github.com/grace-plugins/@grails.codegen.projectName@/issues" ]
 
     // Online location of the plugin's browseable source code.
-//    def scm = [ url: "https://github.com/grace-plugins/@plugin.short.name@" ]
+//    def scm = [ url: "https://github.com/grace-plugins/@grails.codegen.projectName@" ]
 
     Closure doWithSpring() { {->
             // TODO Implement runtime spring config (optional)
