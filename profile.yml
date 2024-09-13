@@ -4,6 +4,10 @@ features:
         - maven-publish
 repositories:
     - "mavenLocal()"
+skeleton:
+    excludes:
+        - app/i18n/*.properties
+        - app/conf/spring/**
 build:
     plugins:
         - org.graceframework.grace-plugin
@@ -11,6 +15,6 @@ build:
         - org.graceframework.grace-core
 dependencies:
     - scope: compile
-      coords: "org.graceframework:grace-core"
-    - scope: compileOnly
       coords: "org.graceframework:grace-boot"
+    - scope: compile
+      coords: "org.graceframework:grace-core"
