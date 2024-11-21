@@ -5,7 +5,7 @@ class @artifact.name@GrailsPlugin {
     // the plugin version
     def version = "@plugin.version@"
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "@grails.version@ > *"
+    def grailsVersion = "@grace.version@ > *"
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
         "app/views/error.gsp"
