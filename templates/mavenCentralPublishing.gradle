@@ -23,7 +23,6 @@ publishing {
                      extension:'xml'
         }
     }
-
 }
 
 task install(dependsOn: project.tasks.withType(PublishToMavenLocal))
