@@ -1,0 +1,14 @@
+== package-plugin
+
+=== Description
+
+Packages the plugin into a JAR file.
+
+NOTE: this command is delegae to Gradle's **jar** task.
+
+=== Usage
+
+[source,bash]
+----
+$ grace package-plugin
+----

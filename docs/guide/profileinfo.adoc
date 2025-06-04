@@ -1,0 +1,20 @@
+You can always get information about the provided command and available features executing
+`grace profile-info plugin`
+
+You will see an output similar to:
+
+[source, bash]
+----
+Profile: plugin
+Version: 2023.3.0
+--------------------------------------------------------------------------------
+Profile for plugins designed to work across all profiles
+
+Provided Commands:
+--------------------------------------------------------------------------------
+* package-plugin                 Packages the plugin into a JAR file [deprecated]
+* publish-plugin                 Publishes the plugin to the Maven Central repository [deprecated]
+
+Provided Features:
+--------------------------------------------------------------------------------
+----

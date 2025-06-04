@@ -1,0 +1,14 @@
+== publish-plugin
+
+=== Description
+
+Publishes the plugin to the Maven Central repository.
+
+NOTE: this command is delegae to Gradle's **publish** task.
+
+=== Usage
+
+[source,bash]
+----
+$ grace publish-plugin
+----
