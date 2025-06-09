@@ -171,17 +171,86 @@ $ git diff</code></pre>
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="bash">Profile: plugin
 Version: 2023.3.0
---------------------------------------------------------------------------------
-Profile for plugins designed to work across all profiles
+Extends: base
+Description: Profile for plugins designed to work across all profiles
 
 Provided Commands:
---------------------------------------------------------------------------------
-* package-plugin                 Packages the plugin into a JAR file [deprecated]
-* publish-plugin                 Publishes the plugin to the Maven Central repository [deprecated]
+----------------------------------------------------------------------------------------------------
+Name                           Description
+----------------------------------------------------------------------------------------------------
+about                          About your application's environment
+assemble                       Creates a JAR or WAR archive for production deployment
+bug-report                     Creates a zip file that can be attached to issue reports for the current project [deprecated]
+clean                          Cleans a Grace application's compiled sources
+compile                        Compiles a Grace application
+console                        Runs the Grace interactive console
+create-command                 Creates an Application Command
+create-domain-class            Creates a Domain Class
+create-plugin                  Creates a Dynamic Plugin
+create-script                  Creates a Groovy Script
+create-unit-test               Creates a Unit Test
+dependency-report              Prints out the Grace application's dependencies [deprecated]
+package                        Packages a Grace application
+package-plugin                 Packages the plugin into a JAR file [deprecated]
+publish-plugin                 Publishes the plugin to the Maven Central repository [deprecated]
+run-app                        Runs a Grace application
+run-command                    Executes Grace commands
+run-script                     Executes Groovy scripts in a Grace context
+shell                          Runs the Grace interactive shell
+stats                          Prints statistics about the project
+stop-app                       Stops the running Grace application
+test-app                       Runs the applications tests
 
 Provided Features:
---------------------------------------------------------------------------------</code></pre>
+----------------------------------------------------------------------------------------------------
+Name                           Required  Defaults  Description
+----------------------------------------------------------------------------------------------------
+asset-pipeline                                     Adds Asset Pipeline to a Grace project
+asset-pipeline-plugin                              Adds Asset Pipeline to a Grace Plugin for packaging
+async                                              Adds support for the Grace Async
+cache                                              Adds support for the Grace Cache abstraction
+database-migration                                 Grace Database Migration Plugin
+events                                             Adds support for the Grace EventBus abstraction
+geb                                                Adds Geb 7, WebDriver 4.x and Webdriver binaries Gradle Plugin dependencies to run functional tests.
+gsp                                                Adds support for GSP to the project
+hibernate                                          Adds GORM for Hibernate to the project
+json-views                                         Adds support for JSON Views to the project
+markup-views                                       Adds support for Markup Views to the project
+maven-publish                              +       Publish Artifacts to Maven Central
+mongodb                                            Adds GORM for MonogoDB to the project</code></pre>
 </div>
+</div>
+<div class="paragraph">
+<p>The above list includes all the commands and features from it&#8217;s parent profile.
+But if you want only show it&#8217;s own commands and features, you can execute <code>grace profile-info plugin --only</code>.</p>
+</div>
+<div class="paragraph">
+<p>You will see the output below:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="bash">Profile: plugin
+Version: 2023.3.0
+Extends: base
+Description: Profile for plugins designed to work across all profiles
+
+Provided Commands:
+----------------------------------------------------------------------------------------------------
+Name                           Description
+----------------------------------------------------------------------------------------------------
+package-plugin                 Packages the plugin into a JAR file [deprecated]
+publish-plugin                 Publishes the plugin to the Maven Central repository [deprecated]
+
+Provided Features:
+----------------------------------------------------------------------------------------------------
+Name                           Required  Defaults  Description
+----------------------------------------------------------------------------------------------------
+asset-pipeline-plugin                              Adds Asset Pipeline to a Grace Plugin for packaging
+maven-publish                              +       Publish Artifacts to Maven Central</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Compared to the <code>plugin</code>, the <code>web-plugin</code> provides <code>asset-pipeline-plugin</code> and <code>gsp</code> in addition to <code>maven-publish</code> by default.</p>
 </div>
 
 
@@ -216,6 +285,18 @@ Provided Features:
                         </div>
                         
                         <div class="menu-item"><a href="../ref/Commands/publish-plugin.html">publish-plugin</a>
+                        </div>
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="menu-block"><h1 class="menu-title" onclick="toggleRef(this.parentNode.childNodes[1])">Features</h1><div class="menu-sub">
+                        
+                        
+                        <div class="menu-item"><a href="../ref/Features/asset-pipeline-plugin.html">asset-pipeline-plugin</a>
+                        </div>
+                        
+                        <div class="menu-item"><a href="../ref/Features/maven-publish.html">maven-publish</a>
                         </div>
                         
                         </div>
