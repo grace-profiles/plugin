@@ -1,4 +1,4 @@
-description: Publish Artifacts to Maven Central
+description: Publish plugin artifacts to Maven Central
 build:
     plugins:
         - maven-publish
@@ -6,4 +6,4 @@ build:
         - signing
 dependencies:
     - scope: build
-      coords: 'io.github.gradle-nexus:publish-plugin:1.3.0'
+      coords: 'io.github.gradle-nexus:publish-plugin:2.0.0'
