@@ -1,0 +1,9 @@
+== maven-publish
+
+=== Description
+
+Publish plugin artifacts to Maven Central.
+
+=== Resources
+
+* https://github.com/gradle-nexus/publish-plugin[Gradle Nexus Publish Plugin]

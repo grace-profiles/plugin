@@ -1,0 +1,9 @@
+== asset-pipeline-plugin
+
+=== Description
+
+Adds Asset Pipeline to a Grace Plugin for packaging.
+
+=== Resources
+
+* https://plugins.graceframework.org/grace-asset-pipeline/6.3.x/[Grace Asset Pipeline]
