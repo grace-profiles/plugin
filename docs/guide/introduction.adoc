@@ -2,7 +2,7 @@ Grace Profiles encapsulate project commands, templates, and plugins.
 
 To create an application using the `plugin` profile you can use the next command:
 
-[source, bash]
+[source,console]
 ----
-grace create-plugin com.example.myplugin --profile=plugin
+$ grace create-plugin com.example.myplugin --profile=plugin
 ----

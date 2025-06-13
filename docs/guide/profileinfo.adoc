@@ -3,7 +3,7 @@ You can always get information about the provided command and available features
 
 You will see an output similar to:
 
-[source, bash]
+[source,console]
 ----
 Profile: plugin
 Version: 2023.3.0
@@ -61,7 +61,7 @@ But if you want only show it's own commands and features, you can execute `grace
 
 You will see the output below:
 
-[source, bash]
+[source,console]
 ----
 Profile: plugin
 Version: 2023.3.0
