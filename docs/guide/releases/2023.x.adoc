@@ -1,0 +1,349 @@
+=== 2023.3.0
+
+link:{github}/releases/tag/v2023.3.0[release notes]
+
+⭐️ New Features
+
+* Setup github docs workflows
+* Add documentation for `plugin` profile link:{github}/issues/44[#44]
+
+🛠 Improvements
+
+* Add release notes
+* Update documentation - Update profile info - Update reference for Commands and Features
+* Update documentation - Update profile info
+* Update documentation - Update profile info
+* Upgrade to Grace Profile: Base 2023.3.0 link:{github}/issues/41[#41]
+* Skeleton: Remove the empty folders in app link:{github}/issues/49[#49]
+* Remove ref asset-pipeline-plugin.adoc See gh-46
+* Add `@CompileStatic` to Application link:{github}/issues/48[#48]
+* Remove extra blank line in maven-publish's build.gradle link:{github}/issues/47[#47]
+* Remove `asset-pipeline-plugin` feature instead of using the `asset-pipeline` of base profile link:{github}/issues/46[#46]
+* Update README
+* Update documentation
+* Update LICENSE
+* Update README - Add document links
+* Add LICENSE
+* Update documentation - Update guide - Add Features
+* Feature: Update to io.github.gradle-nexus:publish-plugin 2.0.0 link:{github}/issues/45[#45]
+* Update github workflows - Upgrade to setup-gradle@v4
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.3.0-RC2 link:{github}/issues/43[#43]
+* Upgrade to Grace 2023.3.0-RC1 link:{github}/issues/40[#40]
+* Upgrade to Gradle 8.14 link:{github}/issues/42[#42]
+
+=== 2023.3.0-RC1
+
+link:{github}/releases/tag/v2023.3.0-RC1[release notes]
+
+🛠 Improvements
+
+* Update README
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.3.0-M2 link:{github}/issues/37[#37]
+* Upgrade to Grace Profile: Base 2023.3.0-RC1 link:{github}/issues/38[#38]
+* Upgrade to Gradle 8.13 link:{github}/issues/39[#39]
+
+⚙️ Tasks
+
+* Release v2023.3.0-RC1
+
+=== 2023.3.0-M2
+
+link:{github}/releases/tag/v2023.3.0-M2[release notes]
+
+🛠 Improvements
+
+* Update README Update badge versions of Grace
+* Remove unused groovyVersion in gradle.properties link:{github}/issues/36[#36]
+* Remove .gitignore in skeleton link:{github}/issues/35[#35]
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.3.0-M1 link:{github}/issues/33[#33]
+* Upgrade to Grace Profile: Base 2023.3.0-M2 link:{github}/issues/34[#34]
+
+⚙️ Tasks
+
+* Release v2023.3.0-M2
+
+=== 2023.3.0-M1
+
+link:{github}/releases/tag/v2023.3.0-M1[release notes]
+
+🛠 Improvements
+
+* Update README Update supported versions
+* Upgrade to Grace Profile: Base 2023.3.0-M1 link:{github}/issues/32[#32]
+* Update github workflows Switch to 2023.3.x branch
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.2.0 link:{github}/issues/31[#31]
+
+⚙️ Tasks
+
+* Release v2023.3.0-M1
+* Next development version: 2023.3.0-SNAPSHOT
+
+=== 2023.2.0
+
+link:{github}/releases/tag/v2023.2.0[release notes]
+
+🛠 Improvements
+
+* Update README
+* Update build scripts to avoid deprecation warnings with Gradle 8 link:{github}/issues/30[#30]
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.2.0-RC1 link:{github}/issues/28[#28]
+* Upgrade to Grace Profile: Base 2023.2.0 link:{github}/issues/29[#29]
+
+⚙️ Tasks
+
+* Release v2023.2.0
+
+=== 2023.2.0-RC1
+
+link:{github}/releases/tag/v2023.2.0-RC1[release notes]
+
+🛠 Improvements
+
+* Update skeleton of `maven-publish` feature link:{github}/issues/27[#27]
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.2.0-M3 link:{github}/issues/24[#24]
+* Upgrade to Grace Profile: Base 2023.2.0-RC1 link:{github}/issues/26[#26]
+* Upgrade to Gradle 8.12 link:{github}/issues/25[#25]
+
+⚙️ Tasks
+
+* Release v2023.2.0-RC1
+
+=== 2023.2.0-M2
+
+link:{github}/releases/tag/v2023.2.0-M2[release notes]
+
+🛠 Improvements
+
+* Update README Update badge of Grace to current version
+* Update template: remove extra blank line link:{github}/issues/22[#22]
+* Update skeleton: setting the grailsVersion designed for `2023.0.0` > * link:{github}/issues/21[#21]
+* Update skeleton: remove extra `bootJar.enable` setting link:{github}/issues/20[#20]
+* Update skeleton: remove extra `.gitkeep` link:{github}/issues/19[#19]
+* Update `maven-publish` feature: use `classesDirectory` property instead of deprecated `outputDir` link:{github}/issues/18[#18]
+* Update `maven-publish` feature: remove unused Gradle m2 repository link:{github}/issues/17[#17]
+* Update `asset-pipeline-plugin` feature: remove extra blank line link:{github}/issues/16[#16]
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.2.0-M1 link:{github}/issues/15[#15]
+* Upgrade to Grace Profile: Base 2023.2.0-M2 link:{github}/issues/23[#23]
+
+⚙️ Tasks
+
+* Release v2023.2.0-M2
+
+=== 2023.2.0-M1
+
+link:{github}/releases/tag/v2023.2.0-M1[release notes]
+
+🛠 Improvements
+
+* Skeleton: replace all tokens `@grails.*@` to `@grace.*` link:{github}/issues/13[#13]
+* Update github workflows
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace Profile: Base 2023.2.0-M1 link:{github}/issues/14[#14]
+* Upgrade to Grace 2023.1.0 link:{github}/issues/12[#12]
+
+⚙️ Tasks
+
+* Release v2023.2.0-M1
+* Next development version: 2023.2.0-SNAPSHOT
+
+=== 2023.1.0
+
+link:{github}/releases/tag/v2023.1.0[release notes]
+
+🛠 Improvements
+
+* Update Badges
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.1.0-RC1 link:{github}/issues/9[#9]
+* Upgrade to Grace Profile: Base 2023.1.0 link:{github}/issues/11[#11]
+* Upgrade to Groovy 4.0.24 link:{github}/issues/10[#10]
+
+⚙️ Tasks
+
+* Release v2023.1.0
+
+=== 2023.1.0-RC1
+
+link:{github}/releases/tag/v2023.1.0-RC1[release notes]
+
+🛠 Improvements
+
+* Use `gradlePluginPortal()` link:{github}/issues/7[#7]
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.1.0-M3 link:{github}/issues/5[#5]
+* Upgrade to Grace Profile: Base 2023.1.0-RC1 link:{github}/issues/8[#8]
+* Upgrade to Gradle Nexus Publish Plugin 2.0.0 link:{github}/issues/6[#6]
+
+⚙️ Tasks
+
+* Release v2023.1.0-RC1
+
+=== 2023.1.0-M3
+
+link:{github}/releases/tag/v2023.1.0-M3[release notes]
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.1.0-M2 link:{github}/issues/3[#3]
+* Upgrade to Grace Profile: Base 2023.1.0-M3 link:{github}/issues/4[#4]
+
+⚙️ Tasks
+
+* Release v2023.1.0-M3
+
+=== 2023.1.0-M2
+
+link:{github}/releases/tag/v2023.1.0-M2[release notes]
+
+🛠 Improvements
+
+* README
+
+🛠 Improvements
+
+* Update README
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2023.1.0-M1 link:{github}/issues/1[#1]
+* Upgrade to Grace Profile: Base 2023.1.0-M2 link:{github}/issues/2[#2]
+
+⚙️ Tasks
+
+* Release v2023.1.0-M2
+
+=== 2023.1.0-M1
+
+link:{github}/releases/tag/v2023.1.0-M1[release notes]
+
+🛠 Improvements
+
+* Update skeleton
+* Update profile.yml
+* Update README
+* Update README
+
+🚀 Dependency Upgrades
+
+* Upgrade to Base profile 2023.1.0-M1
+* Upgrade to Grace 2023.0.2
+* Upgrade to Grace 2023.0.1
+* Upgrade to Groovy 4.0.23
+
+⚙️ Tasks
+
+* Release v2023.1.0-M1
+* Update github workflows
+* Update github workflows
+* Next development version: 2023.1.0-SNAPSHOT
+
+=== 2023.0.1
+
+link:{github}/releases/tag/v2023.0.1[release notes]
+
+* Release v2023.0.1
+* Upgrade to Base profile 2023.0.1
+* Upgrade to Grace 2023.0.0
+* Next development version: 2023.0.1-SNAPSHOT
+
+=== 2023.0.0
+
+link:{github}/releases/tag/v2023.0.0[release notes]
+
+* Release v2023.0.0
+* Upgrade to Base profile 2023.0.0
+* Upgrade to Grace 2023.0.0-RC2
+
+=== 2023.0.0-RC2
+
+link:{github}/releases/tag/v2023.0.0-RC2[release notes]
+
+* Release v2023.0.0-RC2
+* Deprecate `publish-plugin` command
+* Deprecate `package-plugin` command
+* Upgrade to Base profile 2023.0.0-RC2
+* Upgrade to Groovy 4.0.22
+* Upgrade to Grace 2023.0.0-RC1
+
+=== 2023.0.0-RC1
+
+link:{github}/releases/tag/v2023.0.0-RC1[release notes]
+
+* Release v2023.0.0-RC1
+* Update templates
+* Upgrade to Base profile 2023.0.0-RC1
+* Upgrade to Groovy 4.0.21
+* Upgrade to Grace 2023.0.0-M7
+
+=== 2023.0.0-M4
+
+link:{github}/releases/tag/v2023.0.0-M4[release notes]
+
+* Release v2023.0.0-M4
+* Update feature `maven-publish`
+* Add artifact profile.yml
+* Upgrade to Base profile 2023.0.0-M5
+* Upgrade to Groovy 4.0.12
+* Upgrade to Grace 2023.0.0-M6
+
+=== 2023.0.0-M3
+
+link:{github}/releases/tag/v2023.0.0-M3[release notes]
+
+* Release v2023.0.0-M3
+* Remove unused install.yml
+* Use Java version 17
+* Upgrade to Base profile 2023.0.0-M4
+* Upgrade to Grace 2023.0.0-M5
+
+=== 2023.0.0-M2
+
+link:{github}/releases/tag/v2023.0.0-M2[release notes]
+
+* Release v2023.0.0-M2
+* Update features
+* Upgrade to Gradle Wrapper 7.6.4
+* Upgrade to Base profile 2023.0.0-M3
+* Upgrade to Grace 2023.0.0-M4
+
+=== 2023.0.0-M1
+
+link:{github}/releases/tag/v2023.0.0-M1[release notes]
+
+* Release v2023.0.0-M1
+* Update feature: use publish-plugin gradle plugin to publish to Sonatype
+* Update feature: fix asset-pipeline plugin id
+* Update skeleton and templates
+* Upgrade to Grace Asset Pipeline Plugin 6.0.0-M2
+* Upgrade to Base profile 2023.0.0-M2
+* Upgrade to Groovy 4.0.10
+* Upgrade to Grace 2023.0.0-M2
+* Update github workflows
+* Next development version: 2023.0.0-SNAPSHOT
