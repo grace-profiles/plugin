@@ -81,4 +81,6 @@ Name                           Required  Defaults  Description
 maven-publish                              +       Publish plugin artifacts to Maven Central
 ----
 
-Compared to the `plugin`, the `web-plugin` provides `asset-pipeline` and `gsp` in addition to `maven-publish` by default.
+Compared to the `plugin`, the `web-plugin` provides `asset-pipeline` and `gsp` in addition to link:../ref/Features/maven-publish.html[`maven-publish`] by default.
+
+NOTE: The link:../ref/Commands/package-plugin.html[`package-plugin`] and link:../ref/Commands/publish-plugin.html[`publish-plugin`] have been deprecated.

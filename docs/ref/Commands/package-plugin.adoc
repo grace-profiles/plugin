@@ -4,7 +4,7 @@
 
 Packages the plugin into a JAR file.
 
-NOTE: this command is delegae to Gradle's **jar** task.
+WARNING: This command has been deprecated, it is recommended to use the **jar** task of Gradle.
 
 === Usage
 

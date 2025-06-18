@@ -4,7 +4,7 @@
 
 Publishes the plugin to the Maven Central repository.
 
-NOTE: this command is delegae to Gradle's **publish** task.
+WARNING: This command has been deprecated, it is recommended to use the **publish** task of Gradle.
 
 === Usage
 
