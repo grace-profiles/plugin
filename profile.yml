@@ -14,7 +14,7 @@ build:
     excludes:
         - org.graceframework.grace-core
 dependencies:
-    - scope: compile
+    - scope: compileOnly
       coords: "org.graceframework:grace-boot"
     - scope: compile
-      coords: "org.graceframework:grace-core"
+      coords: "org.graceframework:grace-boot-plugin"
