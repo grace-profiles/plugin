@@ -1,0 +1,34 @@
+=== 2024.0.0-M1
+
+link:{github}/releases/tag/v2024.0.0-M1[release notes]
+
+🛠 Improvements
+
+* Add release notes for 2024.0.0-M1
+* Update template: mavenCentralPublishing
+  - Remove workaround for the generated POM
+
+* Update guides
+* Update doc.properties
+* Add issue template
+* Update profile.yml: migrate to the new coords of the dependecies
+* Skeleton: move `Application.groovy` from `app\init` to `app\boot` link:{github}/issues/56[#56]
+
+* Update README
+  - Update document links
+  - Update badge version of Grace
+  - Update supported versions
+
+* Migrate to Central Portal OSSRH Staging API link:{github}/issues/51[#51]
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2024.0.0-M1 link:{github}/issues/53[#53]
+* Upgrade to Grace Profile: Base 2024.0.0-M1 link:{github}/issues/57[#57]
+* Upgrade to Gradle 8.14.3 link:{github}/issues/55[#55]
+
+⚙️ Tasks
+
+* Release v2024.0.0-M1
+* Update GitHub workflows - Switch to 2024.0.x
+* Next development version: 2024.0.0-SNAPSHOT
