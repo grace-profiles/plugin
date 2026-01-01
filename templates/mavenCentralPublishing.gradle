@@ -1,21 +1,10 @@
 publishing {
     publications {
         maven(MavenPublication) {
-            pom.withXml {
-                def pomNode = asNode()
-                pomNode.dependencyManagement.replaceNode {}
-
-                // simply remove dependencies without a version
-                // version-less dependencies are handled with dependencyManagement
-                // see https://github.com/spring-gradle-plugins/dependency-management-plugin/issues/8 for more complete solutions
-                pomNode.dependencies.dependency.findAll {
-                    it.version.text().isEmpty()
-                }.each {
-                    it.replaceNode {}
-                }
-            }
             artifactId project.name
+
             from components.java
+
             artifact sourcesJar
             artifact javadocJar
             artifact source:"${project.buildDir}/classes/groovy/main/META-INF/grails-plugin.xml",
