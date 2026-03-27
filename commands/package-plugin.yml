@@ -2,8 +2,8 @@ description: Packages the plugin into a JAR file
 deprecated: true
 minArguments: 0
 usage: |
- package-plugin
+  package-plugin
 steps:
- - command: gradle
-   tasks:
-     - jar
+  - command: gradle
+    tasks:
+      - jar

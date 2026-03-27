@@ -2,8 +2,8 @@ description: Publishes the plugin to the Maven Central repository
 deprecated: true
 minArguments: 0
 usage: |
- publish-plugin
+  publish-plugin
 steps:
- - command: gradle
-   tasks:
-     - publish
+  - command: gradle
+    tasks:
+      - publish
