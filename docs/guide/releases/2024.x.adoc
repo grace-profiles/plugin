@@ -1,3 +1,30 @@
+=== 2024.1.0-RC1
+
+link:{github}/releases/tag/v2024.1.0-RC1[release notes]
+
+⭐️ New Features
+
+* Restructure directory structure link:{github}/issues/76[#76]
+
+🛠 Improvements
+
+* Add release notes for 2024.1.0-RC1
+* Update README - Update badge versions of Grace and Groovy
+* Update guide: upgrade.adoc
+* Add .sdkmanrc with latest java version 17.0.19-zulu link:{github}/issues/73[#73]
+* Upgrade Release Drafter Gradle Action to v7 link:{github}/issues/72[#72]
+* Upgrade GitHub workflows: migrate java distribution from `adopt` to `zulu` link:{github}/issues/71[#71]
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2024.1.0-M3 link:{github}/issues/70[#70]
+* Upgrade to Grace Profile: Base 2024.1.0-RC1 link:{github}/issues/75[#75]
+* Upgrade to Gradle 8.14.5 link:{github}/issues/74[#74]
+
+⚙️ Tasks
+
+* Release v2024.1.0-RC1
+
 === 2024.1.0-M1
 
 link:{github}/releases/tag/v2024.1.0-M1[release notes]
