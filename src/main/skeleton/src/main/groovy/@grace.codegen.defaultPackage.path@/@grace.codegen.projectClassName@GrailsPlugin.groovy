@@ -25,21 +25,21 @@ Brief summary/description of the plugin.
     // Extra (optional) plugin metadata
 
     // License: one of 'APACHE', 'GPL2', 'GPL3'
-//    def license = "APACHE"
+    // def license = "APACHE"
 
     // Details of company behind the plugin (if there is one)
-//    def organization = [ name: "My Company", url: "https://www.my-company.com/" ]
+    // def organization = [ name: "My Company", url: "https://www.my-company.com/" ]
 
     // Any additional developers beyond the author specified above.
-//    def developers = [ [ name: "Your name", email: "yourname@example.com" ] ]
+    // def developers = [ [ name: "Your name", email: "yourname@example.com" ] ]
 
     // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "GITHUB", url: "https://github.com/grace-plugins/@grace.codegen.projectName@/issues" ]
+    // def issueManagement = [ system: "GITHUB", url: "https://github.com/grace-plugins/@grace.codegen.projectName@/issues" ]
 
     // Online location of the plugin's browseable source code.
-//    def scm = [ url: "https://github.com/grace-plugins/@grace.codegen.projectName@" ]
+    // def scm = [ url: "https://github.com/grace-plugins/@grace.codegen.projectName@" ]
 
-    Closure doWithSpring() { {->
+    Closure doWithSpring() { { ->
             // TODO Implement runtime spring config (optional)
         }
     }
@@ -66,4 +66,5 @@ Brief summary/description of the plugin.
     void onShutdown(Map<String, Object> event) {
         // TODO Implement code that is executed when the application shuts down (optional)
     }
+
 }
