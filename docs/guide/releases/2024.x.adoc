@@ -1,3 +1,25 @@
+=== 2024.2.0-M1
+
+link:{github}/releases/tag/v2024.2.0-M1[release notes]
+
+🛠 Improvements
+
+* Add release notes for 2024.2.0-M1
+* Update doc.properties - switch to 2024.2.x branch
+* Move Base's skeleton into the plugin's own skeleton link:{github}/issues/81[#81]
+
+🚀 Dependency Upgrades
+
+* Upgrade to Grace 2024.1.1 link:{github}/issues/80[#80]
+* Upgrade to Grace Profile: Base 2024.2.0-M1 link:{github}/issues/82[#82]
+
+⚙️ Tasks
+
+* Release v2024.2.0-M1
+* Bump actions/checkout from 6 to 7
+* Update GitHub workflows - Switch to '2024.2.x'
+* Next development version: 2024.2.0-SNAPSHOT
+
 === 2024.1.0
 
 link:{github}/releases/tag/v2024.1.0[release notes]
